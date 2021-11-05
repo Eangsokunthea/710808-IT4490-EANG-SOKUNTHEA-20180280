@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1306.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="574.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EANG SOKUNTHEA" />
+      <ImageView fx:id="myImage" fitHeight="230.0" fitWidth="536.0" layoutX="440.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Desktop/myname.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

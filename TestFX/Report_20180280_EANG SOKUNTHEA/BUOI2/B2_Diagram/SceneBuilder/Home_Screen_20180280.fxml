@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="931.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-1.0" layoutY="-1.0" prefHeight="81.0" prefWidth="930.0" style="-fx-background-color: #FFCCCC;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="40.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/AIMS01.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="247.0" layoutY="23.0" prefHeight="36.0" prefWidth="366.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Icon content="SEARCH" layoutX="330.0" layoutY="5.0" />
+                  <Text layoutX="131.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EANG SOKUNTHEA" />
+               </children>
+            </Pane>
+            <Button layoutX="644.0" layoutY="26.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" text="Search" />
+            <ImageView fitHeight="36.0" fitWidth="31.0" layoutX="871.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/google-logo-transparent-alphabet-4.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="80.0" prefHeight="456.0" prefWidth="931.0" style="-fx-background-color: #F7F9F9;">
+         <children>
+            <Pane prefHeight="456.0" prefWidth="232.0" style="-fx-border-color: #ff42a1;">
+               <children>
+                  <Pane prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+                     <children>
+                        <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/img_netflix/comedy/p5Uz76EOwj9rAsdGxYL8IZGPV2B.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                        <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                           <children>
+                              <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                                 <cursor>
+                                    <Cursor fx:constant="NW_RESIZE" />
+                                 </cursor>
+                              </Text>
+                              <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                              <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                              <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="152.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+                     <children>
+                        <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/img_netflix/comedy/mLvKuGCI8oVaMhmAMLFtteQLLo9.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                        <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                           <children>
+                              <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                                 <cursor>
+                                    <Cursor fx:constant="NW_RESIZE" />
+                                 </cursor>
+                              </Text>
+                              <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                              <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                              <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="304.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+                     <children>
+                        <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/img_netflix/comedy/vLCZEH0pYRksSO4EWjfgRpErDOt.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                        <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                           <children>
+                              <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                                 <cursor>
+                                    <Cursor fx:constant="NW_RESIZE" />
+                                 </cursor>
+                              </Text>
+                              <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                              <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                              <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                                 <cursor>
+                                    <Cursor fx:constant="DEFAULT" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="232.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/sxrZbrMopVPyiepv7tQDrW0osiy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="232.0" layoutY="152.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/oHibdUuae99sJ6U94y8El6v8jSG.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="232.0" layoutY="304.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/uuitWHpJwxD1wruFl2nZHIb4UGN.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="464.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/jjCPcxw7QCmFPYM1t3BThdEawJK%20(1).jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="464.0" layoutY="152.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/yc2IfL701hGkNHRgzmF4C6VKO14.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="464.0" layoutY="304.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="696.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/mLvKuGCI8oVaMhmAMLFtteQLLo9.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="696.0" layoutY="152.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/vLCZEH0pYRksSO4EWjfgRpErDOt.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="696.0" layoutY="304.0" prefHeight="152.0" prefWidth="232.0" style="-fx-border-color: #D35400;">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="47.0" layoutX="10.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/img_netflix/comedy/dvxSvr6OmYGvvt8Z1VdBlPfL1Lf.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="18.0" strokeDashOffset="10.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Book 1" textAlignment="CENTER" />
+                  <Pane layoutX="61.0" layoutY="23.0" prefHeight="111.0" prefWidth="100.0" style="-fx-border-color: #52BE80;">
+                     <children>
+                        <Text layoutX="5.0" layoutY="19.0" opacity="0.75" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="Price  24">
+                           <cursor>
+                              <Cursor fx:constant="NW_RESIZE" />
+                           </cursor>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="38.0" opacity="0.64" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 12;" text="avail  64" />
+                        <Spinner layoutX="4.0" layoutY="43.0" prefHeight="26.0" prefWidth="77.0" />
+                        <Button layoutX="2.0" layoutY="75.0" minHeight="16.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #641E16;" text="Add to cart">
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>
