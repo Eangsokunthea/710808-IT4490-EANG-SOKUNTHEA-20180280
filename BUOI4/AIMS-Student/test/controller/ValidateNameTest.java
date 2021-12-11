@@ -21,7 +21,7 @@ class ValidateNameTest {
 	@CsvSource({
 		"sokuntheaE, true",
 		"sokuntheaE01234, false",
-		"null, false"
+		" , false"
 	})
 
 	void test(String name, boolean expected) {

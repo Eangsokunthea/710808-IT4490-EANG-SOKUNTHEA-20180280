@@ -107,8 +107,8 @@ public class PlaceOrderController extends BaseController{
     public boolean validateName(String name) {
     	// EANG SOKUNTHEA 20180280
     	
-    	//check the name null 
-    	if(name == null)
+    	//check null or empty name
+    	if(name == null || name.length() == 0)
     		return false;
     	
     	//check the name only string
@@ -122,17 +122,9 @@ public class PlaceOrderController extends BaseController{
     public boolean validateAddress(String address) {
     	// EANG SOKUNTHEA 20180280
     	
-    	//check the address null 
-    	if(address == null)
+    	//check null or empty address
+    	if(address == null || address.length() == 0)
     		return false;
-    	
-    	//check the address do not only number
-    	try {
-    		Integer.parseInt(address);
-    		
-    	}catch(NumberFormatException e) {
-    		return true;
-    	}	
 
     	return true;
     }
