@@ -131,6 +131,7 @@ public class PlaceOrderController extends BaseController{
     
 
     /**
+     * EANG SOKUNHTEA - 20180280
      * This method calculates the shipping fees of order
      * @param order
      * @return shippingFee

@@ -1,5 +1,7 @@
 package entity.payment;
-
+/**
+ * eang sokunthea - 20180280 
+ */
 public class PaymentTransaction {
 	private String errorCode;
 	private CreditCard card;
